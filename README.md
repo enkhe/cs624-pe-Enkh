@@ -39,6 +39,35 @@ The app outputs a scrollable list of tasks entered by the user. Each task is dis
 
 ---
 
+
+## PE04-ProfileCards - Part 01
+
+### Input
+The app allows users to view a list of profile cards. Each card contains information such as the user's name, profile picture, and a short description. The data for the profiles is predefined and stored in the app.
+
+### Process
+The app processes the predefined profile data by mapping over the data array and rendering a styled card for each profile. It uses React Native components like `View`, `Text`, `Image`, and `StyleSheet` to create visually appealing and responsive profile cards. The app also ensures proper layout and spacing using Flexbox.
+
+### Output
+The app outputs a scrollable list of profile cards. Each card displays the user's profile picture, name, and description in a clean and organized format. The interface is styled to be visually appealing and responsive across different screen sizes and platforms (iOS, Android, and web).
+
+---
+
+
+## PE04-ProfileCards - Part 02
+
+### Input
+The app displays a gallery of profile cards, each showing a user's name, profile picture, occupation, and a short description. The profile data is predefined and stored in the app. Users can interact with each card: tapping a card toggles it between a full-size view and a thumbnail view.
+
+### Process
+The app maps over the predefined profile data array and renders a styled card for each profile using React Native components such as `View`, `Text`, `Image`, and `StyleSheet`. Flexbox is used to create a responsive, wrapping grid layout so that cards flow into new rows as the screen size changes. Each card can be toggled between full and thumbnail size by tapping, demonstrating dynamic state updates and interactivity.
+
+### Output
+The app outputs a responsive, scrollable gallery of profile cards. Each card displays the user's profile picture, name, occupation, and description in a visually appealing format. The layout adapts to different screen sizes and platforms (iOS, Android, and web), ensuring that cards wrap into new rows as needed. Tapping a card animates it between full and thumbnail sizes, providing interactive feedback.
+
+
+---
+
 ## Analysis Report
 
 The program follows the input-process-output model effectively. Users provide input through a `TextInput` field, which updates the state dynamically. The app processes this input using React Native's state management (`useState`) and side effects (`useEffect`) to log the input to the console. The app uses React Native's core components to render a visually appealing and scrollable interface, ensuring compatibility across platforms (iOS, Android). The output is a responsive UI that displays MSCS course details and logs user input in real time. The use of `StyleSheet` ensures consistent styling, while `ScrollView` makes the interface user-friendly for long content. This design demonstrates a clear separation of concerns, with input handling, processing, and output rendering working seamlessly together.
