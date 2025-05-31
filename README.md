@@ -68,6 +68,58 @@ The app outputs a responsive, scrollable gallery of profile cards. Each card dis
 
 ---
 
+---
+
+## PE05-Cities
+
+## Input
+- **Add City:** Enter a city name and its country in the Add City tab.
+- **Add Country:** Enter a country name and its currency in the Add Country tab.
+- **Edit/Delete:** Use the edit and delete buttons on each city or country card to update or remove entries.
+
+## Process
+- The app stores lists of cities and countries in memory (state).
+- Adding, editing, or deleting a city/country updates the list instantly.
+- All changes are reflected in the UI with a modern, professional design.
+
+## Output
+- **Cities Tab:** Displays a list of all added cities and their countries, with options to edit or delete.
+- **Countries Tab:** Displays a list of all added countries and their currencies, with options to edit or delete.
+- **Screenshots:**
+  - ![Add City](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20Add.png)
+  - ![Cities List](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20List.png)
+  - ![Add Country](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20Add.png)
+  - ![Countries List](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20List.png)
+
+---
+
+
+## Project Setup
+
+To set up and run the project, follow these steps:
+
+1. Create a new Expo app:
+   ```bash
+   npx create-expo-app Styling
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Styling
+   ```
+
+3. Log in to Expo (if not already logged in):
+   ```bash
+   npx expo login
+   ```
+
+4. Start the development server:
+   ```bash
+   npx expo start --tunnel
+   ```
+
+--- 
+
 ## Analysis Report
 
 The program follows the input-process-output model effectively. Users provide input through a `TextInput` field, which updates the state dynamically. The app processes this input using React Native's state management (`useState`) and side effects (`useEffect`) to log the input to the console. The app uses React Native's core components to render a visually appealing and scrollable interface, ensuring compatibility across platforms (iOS, Android). The output is a responsive UI that displays MSCS course details and logs user input in real time. The use of `StyleSheet` ensures consistent styling, while `ScrollView` makes the interface user-friendly for long content. This design demonstrates a clear separation of concerns, with input handling, processing, and output rendering working seamlessly together.
