@@ -86,10 +86,13 @@ The app outputs a responsive, scrollable gallery of profile cards. Each card dis
 - **Cities Tab:** Displays a list of all added cities and their countries, with options to edit or delete.
 - **Countries Tab:** Displays a list of all added countries and their currencies, with options to edit or delete.
 - **Screenshots:**
-  - ![Add City](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20Add.png)
-  - ![Cities List](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20List.png)
-  - ![Add Country](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20Add.png)
-  - ![Countries List](PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20List.png)
+
+<p align="center">
+  <img src="PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20Add.png" width="20%" />
+  <img src="PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20List.png" width="20%" />
+  <img src="PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20Add.png" width="20%" />
+  <img src="PE05-Cities/Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20List.png" width="20%" />
+</p>
 
 ---
 

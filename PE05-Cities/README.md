@@ -40,10 +40,13 @@ To set up and run the project, follow these steps:
 - **Cities Tab:** Displays a list of all added cities and their countries, with options to edit or delete.
 - **Countries Tab:** Displays a list of all added countries and their currencies, with options to edit or delete.
 - **Screenshots:**
-  - ![Add City](Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20Add.png)
-  - ![Cities List](Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20List.png)
-  - ![Add Country](Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20Add.png)
-  - ![Countries List](Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20List.png)
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20Add.png" width="22%" />
+  <img src="Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20City%20-%20List.png" width="22%" />
+  <img src="Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20Add.png" width="22%" />
+  <img src="Screenshots/Screenshot%202025-05-31%20CS624%20PE05%20Country%20-%20List.png" width="22%" />
+</p>
 
 ---
 
