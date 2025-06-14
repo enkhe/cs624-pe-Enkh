@@ -97,6 +97,8 @@ The app outputs a responsive, scrollable gallery of profile cards. Each card dis
 ---
 
 
+# PE06 – Cities with Countries and Currency using Tab and Stack-based Navigations
+
 ## Project Setup
 
 To set up and run the project, follow these steps:
@@ -121,9 +123,29 @@ To set up and run the project, follow these steps:
    npx expo start --tunnel
    ```
 
---- 
+---
 
-## Analysis Report
+## Input
 
-The program follows the input-process-output model effectively. Users provide input through a `TextInput` field, which updates the state dynamically. The app processes this input using React Native's state management (`useState`) and side effects (`useEffect`) to log the input to the console. The app uses React Native's core components to render a visually appealing and scrollable interface, ensuring compatibility across platforms (iOS, Android). The output is a responsive UI that displays MSCS course details and logs user input in real time. The use of `StyleSheet` ensures consistent styling, while `ScrollView` makes the interface user-friendly for long content. This design demonstrates a clear separation of concerns, with input handling, processing, and output rendering working seamlessly together.
+- User enters a country name and its currency in the Add Country form.
+- User can view, edit, or delete countries in the Countries list.
+
+## Process
+
+- When a country and currency are submitted, they are added to the countries list in the app state.
+- The Countries tab uses stack-based navigation to show the list and details for each country.
+- Editing or deleting a country updates the list in real time.
+
+## Output
+
+Below are screenshots of the Add Country form and the Countries list, shown side by side:
+
+<p align="center">
+  <img src="./PE06-Cities-with-Countries-and-Currency/Screenshots/Add Country.png" alt="Add Country" width="300"/>
+  <img src="./PE06-Cities-with-Countries-and-Currency/Screenshots/Countries.png" alt="Countries List" width="300"/>
+</p>
+
+---
+
+This project demonstrates a professional React Native/Expo app for managing cities and countries with a modern UI/UX.
 
