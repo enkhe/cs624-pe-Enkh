@@ -141,8 +141,8 @@ To set up and run the project, follow these steps:
 Below are screenshots of the Add Country form and the Countries list, shown side by side:
 
 <p align="center">
-  <img src="./PE06-Cities-with-Countries-and-Currency/Screenshots/Add Country.png" alt="Add Country" width="300"/>
-  <img src="./PE06-Cities-with-Countries-and-Currency/Screenshots/Countries.png" alt="Countries List" width="300"/>
+  <img src="./PE06-CitiesWithCountriesCurrencyStackNav/Screenshots/Add Country.png" alt="Add Country" width="300"/>
+  <img src="./PE06-CitiesWithCountriesCurrencyStackNav/Screenshots/Countries.png" alt="Countries List" width="300"/>
 </p>
 
 ---
